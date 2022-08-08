@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - ybloom</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+
+<title>yunah</title>
+<style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=b84ed2eb31f8e1bbdb3e7a53afa67dd4"><link rel="shortcut icon" href="/">
+<link rel="alternate" type="application/rss+xml" href="https://preview.pohroro.com/rss">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+
+<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Playfair+Display:400,400i,700,700i" rel="stylesheet">
+<link href="https://static.tumblr.com/yzs4yqx/dQmph91nx/base.css" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="https://static.tumblr.com/yzs4yqx/hKGo8vgj6/jquery.slimscroll.min.js"></script>
+<script>
+$(function(){
+    $('#wrapper').slimScroll({
+        size: '3px',
+        distance: '3px',
+        height: '397px',
+        color: 'var(--scrollbar-color)'
+        });
+    });
+</script>
+
+<style>
+
+:root {
+    
+    /*=== change style options here: ===*/
+    
+    /* global */
+    --body-font-color: #666;
+    --body-font-size: 11px;
+    --body-link-font-color: #684e4f;
+    --body-link-font-hover-color: #111;
+    --body-background-color: #fff;
+    --body-background-image: url(http://i.imgur.com/afHDqvo.png);
+	
+    /* content */
+    --container-background-color: #fff;
+    --title-font-color: #684e4f;
+    --title-font-weight: bold;
+    --title-border-color: #ffc5c1;
+    --avatar-image: url(https://i.ibb.co/FW5KmKv/yunahyah.png);
+    --quote-font-color: #684e4f;
+    --stats-background-color: #f4f4f4;
+    --stats-info-color: #684e4f;
+    --stats-underline-color: #ffc5c1;
+    --navigation-font-color: #684e4f;
+    --navigation-divider-color: #ffc5c1; 
+    --navigation-font-size: 9px;
+	
+    /* miscellaneous */
+    --scrollbar-color: #f1f1f1;
+    --selection-color: #684e4f;
+    
+}
+
+.tmblr-iframe {
+    white-space: nowrap;
+    opacity: 0.6;
+    -webkit-transform: scale(0.6, 0.6);
+    transform: scale(0.6, 0.6);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;display: none;
+}
+    
+body {
+    font-family: Karla;
+    color: var(--body-font-color);
+    font-size: var(--body-font-size);
+    background: var(--body-background-color) var(--body-background-image) fixed;
+    line-height: calc(1.5em + (var(--body-font-size) / 2));
+}
+
+a {
+    color: var(--body-link-font-color);
+}
+
+a:hover {
+    color: var(--body-link-font-hover-color);
+}
+
+#container {
+    width: 470px;
+    height: 460px;
+    margin: 0 auto;
+    top: calc(50% - 220px);
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+h1, main, nav {
+    background-color: var(--container-background-color);
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 380px;
+    font-size: 55px;
+    font-weight: var(--title-font-weight);
+    color: var(--title-font-color);
+    font-family: Playfair Display;
+    letter-spacing: -2px;
+    text-align: center;
+    transform-origin: 200px 190px;
+    position: absolute;
+    height: 110px;
+    line-height: 80px;
+    transform: rotate(270deg);
+    border: 6px double var(--title-border-color);
+    outline: 10px solid var(--container-background-color);
+}
+
+main {
+    margin-left: 141px;
+    padding-top: 3px;
+    width: 330px;
+    text-align: justify;
+    font-size: var(--body-font-size);
+}
+
+#wrapper {
+    padding: 0 25px;
+}
+
+#avatar {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 25px;
+    margin-right: 10px;
+    background-image: var(--avatar-image);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--quote-font-color);
+    font-family: Playfair Display;
+    letter-spacing: -0.5px;
+    text-align: right;
+    margin: 27px 0 24px 10px;
+    font-style: italic;
+}
+
+.stats {
+    background: var(--stats-background-color);
+    margin-bottom: 10px;
+    padding: 8px 15px;
+}
+
+.stats b::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    padding: 0 3px;
+    background: var(--stats-underline-color);
+    display: block;
+    margin-top: -5px;
+    position: relative;
+    z-index: -1;
+    margin-left: -3px;
+    transform: skew(-15deg);
+}
+
+.stats b {
+    color: var(--stats-info-color);
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 10px;
+    margin-right: 5px;
+    z-index: 999;
+    position: relative;
+}
+
+main p {
+    line-height: 20px;
+}
+
+nav {
+    margin-top: 9px;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-size: var(--navigation-font-size);
+    color: var(--navigation-font-color);
+    font-weight: bold;
+    text-shadow: 0 0;
+    letter-spacing: 1px;
+}
+
+nav a::after {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: var(--navigation-divider-color);
+}
+
+nav a:last-of-type::after {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: var(--body-background-color);
+}
+           
+::-webkit-scrollbar-thumb:vertical {
+    background: var(--scrollbar-color);
+    border: 3px solid var(--body-background-color);
+}
+
+::selection {
+    background: var(--selection-color);
+    color: #fff;
+}
+   
+::-moz-selection {
+    background: var(--selection-color);
+    color: #fff;
+}
+
+p::selection {
+    background: var(--selection-color);
+    color: #fff;
+}
+
+p::-moz-selection {
+    background: var(--selection-color);
+    color: #fff;
+}
+
+</style>
+<script
+    defer
+    type="application/javascript"
+    id="bilmur"
+    data-provider="tumblr.com"
+    data-service="blognetwork"
+    nonce="bBfrssTIYOofcY9GQcaiVO8KYhI"
+    src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202231"
+  ></script><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/lorimerno2/stylesheet.css?v=3"><!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="yunah" /><meta name="twitter:title" content="yunah" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=codesbypohroro&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=codesbypohroro&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=codesbypohroro&amp;referrer=twitter-cards" /><link rel="canonical" href="https://preview.pohroro.com/aurora" /></head>
+<body>
+
+<div id="container">
+
+<h1>yunah.</h1> <!-- title -->
+
+<main>
+<div id="wrapper">
+
+<div id="avatar"></div>
+
+<h2>“I am rooted, but I flow.”</h2> <!-- quote; keep to similar length -->
+
+<div class="stats">
+
+<!-- start of profile stats column two; add as many as you want -->
+
+<b>mar, ♏︎ , arg</b><br>
+
+<!-- end of stats -->
+
+</div>
+
+<!-- start of biography; make it as long as you want -->
+
+<p>“Dearest, I feel certain that I am going mad again. I feel we can't go through another of those terrible times. And I shan't recover this time. I begin to hear voices, and I can't concentrate. So I am doing what seems the best thing to do. You have given me the greatest possible happiness. You have been in every way all that anyone could be. I don't think two people could have been happier 'til this terrible disease came. I can't fight any longer. I know that I am spoiling your life, that without me you could work. And you will I know. You see I can't even write this properly. I can't read. What I want to say is I owe all the happiness of my life to you. You have been entirely patient with me and incredibly good. I want to say that – everybody knows it. If anybody could have saved me it would have been you. Everything has gone from me but the certainty of your goodness. I can't go on spoiling your life any longer. I don't think two people could have been happier than we have been. V.”</p>
+
+<!-- end of biography -->
+
+</div>
+</main>
+
+<nav>
+
+<!-- links -->
+
+<a href="https://xat.me/Rendezvoused">Gabi</a>
+<a href="https://xat.me/Naez">Naez</a>
+<a href="https://xat.me/iCherish">Kris</a>
+<a href="https://xat.me/Poniko">Tanzi</a>
+<a href="https://xat.me/FLuorescente">Lore</a>
+<a href="https://xat.me/ALejaa2">Ale</a>
+<a href="https://xat.me/Loba">Loba</a>
+</nav>
+
+</div>
+
+<script src="https://static.tumblr.com/yzs4yqx/lOsokx99u/smoothscroll.min.js"></script>
+
+
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?_v=9f5febfd57a8a649c598d888f2d9e062#" +
+                              "https://preview.pohroro.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/aurora?route=custom_page'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript" nonce="bBfrssTIYOofcY9GQcaiVO8KYhI">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1659900886&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL3ByZXZpZXcucG9ocm9yby5jb20vYXVyb3JhIiwicmVxdHlwZSI6MCwicm91dGUiOiJjdXN0b21fcGFnZSJ9&U=LAMCHDJDIN&K=876512a2c0c0f4b40c60f97e92b4c0727adf0de5875384b81aa9659bf686f4e9&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=dfb426dc4b79ae407490bcfb2705328b"></script></body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
